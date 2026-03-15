@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual environment
+.venv/
+venv/
+
+# Rust build artifacts
+nanochat/rustbpe/target/
+
+# Model cache & training data (too large for git)
+~/.cache/nanochat/
+*.parquet
+*.pt
+*.pkl
+*.gguf
+uv.lock
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Weights & Biases
+wandb/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
