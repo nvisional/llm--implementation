@@ -35,7 +35,6 @@ wandb/
 .ipynb_checkpoints/
 
 # Editor
-.vscode/
 .idea/
 *.swp
 *.swo
